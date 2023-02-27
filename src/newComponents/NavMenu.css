@@ -1,0 +1,34 @@
+.navigation {
+  width: 250px;
+  background-color: #e6e3e3a6;
+  height: 100vh;
+}
+.navigation nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+  gap: 160px;
+}
+.navigation nav ul {
+  margin-top: 28px;
+  margin-left: 11px;
+}
+.navigation nav li {
+  list-style: none;
+  display: flex;
+  justify-content: baseline;
+  align-items: baseline;
+  /* flex-direction: column; */
+}
+.navigation nav a {
+  color: #0a0a0a;
+  text-decoration: none;
+  padding: 13px 0 11.5px 0;
+  font-weight: 800px;
+  font-size: 15px;
+}
+.icons {
+  padding: 10px 5px 0 0;
+  margin-top: 10px;
+}

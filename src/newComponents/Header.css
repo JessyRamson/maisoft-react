@@ -1,0 +1,45 @@
+.header .imgContainer {
+  width: 45px;
+  height: 45px;
+  overflow: hidden;
+}
+.header img {
+  width: 45px;
+  height: 45px;
+}
+.header .header-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  gap: 28px;
+}
+.header {
+  box-shadow: 1px 2px 6px #c9c6c6;
+  font-display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .rightheader {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 25px;
+}
+
+.admininfo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.avatarCont {
+  width: 45px;
+  height: 45px;
+  border-radius: 100px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+.avatar {
+  width: 45px;
+  height: 45px;
+}
